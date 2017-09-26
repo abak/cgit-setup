@@ -12,7 +12,7 @@ robots=noindex, nofollow
 root-title=abak's repo
 root-desc=my personal repositories
 remove-suffix=1
-clone-prefix=https://git.abak.io/cgit.cgi ssh://git@git.abak.io:/data/git/
+clone-prefix=https://git.abak.io/cgit.cgi ssh://git@git.abak.io:/data/git
 auth-filter=lua:/usr/lib/cgit/filters/simple-authentication.lua
 
 scan-path=/data/git/
