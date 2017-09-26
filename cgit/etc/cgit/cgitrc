@@ -1,0 +1,18 @@
+css=/cgit.css
+logo=/logo.png
+source-filter=/filters/syntax-highlighting3.sh
+enable-git-config=1
+enable-index-owner=0
+enable-commit-graph=1
+enable-index-links=1
+enable-log-linecount=1
+enable-log-filecount=1
+#cache-size=512
+robots=noindex, nofollow
+root-title=abak's repo
+root-desc=my personal repositories
+remove-suffix=1
+clone-prefix=https://git.abak.io/cgit.cgi ssh://git@git.abak.io:/data/git/
+auth-filter=lua:/usr/lib/cgit/filters/simple-authentication.lua
+
+scan-path=/data/git/
